@@ -7,22 +7,22 @@ Original file is located at
     https://colab.research.google.com/drive/1JDo7-mGs88W5LKItPoQa4PNLXRYtvD8e
 """
 
-!pip cache purge
+# !pip cache purge
 
-!pip install openai
+# !pip install openai
 
-!pip install langchain
+# !pip install langchain
 
-!pip install streamlit
+# !pip install streamlit
 
-!pip install langchain==0.0.148
+# !pip install langchain==0.0.148
 
-!pip install pydantic==1.10.6
-!pip install typing-inspect==0.8.0
+# !pip install pydantic==1.10.6
+# !pip install typing-inspect==0.8.0
 
 # prompt: check python version
 
-!python --version
+# !python --version
 
 import streamlit as st
 from langchain import OpenAI, LLMChain
